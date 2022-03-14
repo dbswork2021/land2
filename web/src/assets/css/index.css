@@ -1,0 +1,29 @@
+.index {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 550px;
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.footer {
+  display: block;
+}
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  width: 450px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
