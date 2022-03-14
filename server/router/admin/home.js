@@ -8,8 +8,6 @@ home.get('/', async (ctx) => {
 });
 
 home.post('/', async (ctx) => {
-  console.log(ctx.request.body);
-
   const { _id, url } = ctx.request.body;
   let data = {};
   if (_id) {
